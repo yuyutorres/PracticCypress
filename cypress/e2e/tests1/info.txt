@@ -1,0 +1,107 @@
+
+
+npx cypress run --record --key 0ecd1905-bc48-4ed3-8339-1f71f7352b78
+
+
+https://federico-toledo.com/sitios-de-prueba-para-practicar/  link para practicar QA
+https://opencart.abstracta.us/ 
+https://mismascotas.vet/store
+https://demoqa.com/
+
+https://www.youtube.com/watch?v=lGfuztkRr4k  Git y GitHub con Visual Studio Code
+
+npx cypress open ==> codigo para correr cypress por consola 
+ cls para limpiar consola
+
+  Comando utilizados en la consola de Git bash en visual studio code
+
+*************************************************************
+Plugin
+Extensiones de chrome para automatizacion
+https://chromewebstore.google.com/detail/css-and-xpath-checker/aoinfihhckpkkcpholfhmkeplbhddipe
+https://chromewebstore.google.com/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic?hl=es-NI
+https://chromewebstore.google.com/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn?hl=es
+
+**************************************************************
+      
+* en consola colocamos: cd + nombre de carpeta 
+* npm init  // enter hasta finalizar
+* npm install cypress --save-dev
+* npx cypress open
+
+Siempre q se crea nueva carpeta hacer esto:
+Crear carpeta por ejemplo Cypress y abrirla o arrastarla en visual studio code
+cd + nombre de carpeta
+cd/.. para devolverte a una carpeta
+ npm init 
+ npm install cypress --save-dev --> instalacion
+ npx cypress open
+   
+
+**************************************************************
+
+ctrl + c => para parar consola
+// ctrl + k + c para comentar todo
+// ctrl + k + u para descomentar todo
+// ctrol shift e para abrir explorador de visual studio code
+// ctrl shift ñ para nueva terminal 
+
+get (#) el  numeral es para los Id
+get (.) el punto es para las clases
+
+***************************************************************
+
+******** Mini Javascript******
+
+1. **Variables tipo string**
+    let nombre= "Yulieth"
+    let ap1="Torres"
+    let ap2="Cuadrado"
+
+// concatenar o unir 2 variables 
+    let nombre_completo = nombre+ap1
+
+    console.log("tu nombre es: " +nombre+" Apellido1: "+ap1+" Apellido2: "+ap2)
+    console.log(nombre_completo)
+
+// alerta
+    alert(nombre_completo)
+
+2. ** Variables tipo numerica**
+
+    let a=90
+    let b=20
+    let c=5
+    let suma= a+b
+    let resta= a-b
+    let multi= a*b
+    let divi= a/b
+
+    let opera_mate=(2*a)+(a/b)-3*((a+b+c)/2)
+
+    console.log("La Suma es:" +suma)
+    console.log("La Resta es:" +resta)
+    console.log("La Multiplicacion es:" +multi)
+    console.log("La Division es:" +divi)
+    console.log("La Operacion Matematica es:" +opera_mate)
+
+
+3. ***Variable Objet (Arrays) (objetos)***
+// en una sola variable podemos colocar una serie de varios datos
+ejemplo 1
+    let obj1={nom:'Yulieth', ap:'Torres'}
+
+    console.log("Tu nombre es: "+obj1.nom+" "+obj1.ap)
+ejemplo 2
+    let datos={a:10, b:20, c:30}
+    let suma = datos.a+datos.b+datos.c
+     console.log(suma)
+
+
+4. ****typeof****
+// para identificar una variable 
+
+    let nom="Yulieth"
+    let a=5
+
+    typeof nom  //Aqui estamos identificando el tipo de la variable nom
