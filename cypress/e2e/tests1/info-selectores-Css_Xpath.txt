@@ -1,0 +1,37 @@
+
+Example 
+// https://demoqa.com/text-box
+
+/* Herramientas **********
+    CSS and XPath checker
+*/
+
+/* Css **********
+ 
+    #userName[type='text']
+    [type='email']
+    input#userName[type='text']
+*/  
+
+/* Css for clase *************
+    .form-control
+    inpu.form-control
+    textarea.form-control
+*/
+
+/* xpath ***********
+   // input[@id='useName']
+   //button[@type='button' ]
+   //button[@id='submit']
+
+// xpath funcion and, or ********
+    // input[@id='useName' or @type='text']
+    // input[@id='useName' and @type='text']
+
+
+// xpath por texto **********
+    un xpath para seleccionar un elemtento que no tiene atributo por su texto
+    en este caso el texto es Text Box de https://demoqa.com/text-box
+    
+    //h1[text()='Text Box']
+*/
